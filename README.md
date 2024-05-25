@@ -1,1 +1,1 @@
-﻿# Pwer Learn Project: Python Assigments. ALL here
+﻿# POwer Learn Project: Python Assigments. ALL ASSIGNMENTS are here .Named with weeks .
