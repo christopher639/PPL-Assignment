@@ -30,8 +30,8 @@ class University:
         return message
     def mess_food(self):
         foods = {"Chappo":30,"Beans":20,"Ugali":10,"Tea":10,"Rice":10}
-        for food in foods:
-            print(f":{food}")
+        for key, food in foods.items():
+            print(f"Menu:{key} : Price : {food}")
 
 
     
