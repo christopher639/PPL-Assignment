@@ -28,12 +28,19 @@ class University:
         feedback = input(f"Give feedback about {self.name} :")
         message  = f"{name} taking {course} says that {feedback}"
         return message
+    def mess_food(self):
+        foods = {"Chappo":30,"Beans":20,"Ugali":10,"Tea":10,"Rice":10}
+        for food in foods:
+            print(f":{food}")
+
 
     
-    #is univers
+    #is university objects 
 #let creat instance of the class the the objects
 obj1 = University("Kibabii University", 2000,"Bungoma")
 print(obj1.uni_info())
 print(obj1.area_of_premises(300,200))
 print(obj1.course_offerd())
+print(obj1.mess_food())
 print(obj1.stud_feedback())
+
